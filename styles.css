@@ -1,0 +1,133 @@
+body {
+	background: #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+.body-profile {
+	max-width: 1000px;
+}
+
+.nav-bar-container {
+	background-color: #073b4c;
+	color: white;
+	padding: 20px;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* a:visited {
+	color: crimson;
+} */
+
+a:hover {
+	color: #ffc694;
+}
+
+input {
+	display: block;
+}
+
+#rubberDuck {
+	border-radius: 50%;
+	max-width: 300px;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+}
+
+#logo {
+	max-height: 200px;
+	box-shadow: 5px 5px #888888;
+	margin: 10px;
+}
+
+.about-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	margin: 15px;
+	max-width: 300px;
+}
+
+.p-container {
+	background-color: white;
+	padding: 15px;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.buttons {
+	padding: 15px;
+	margin: 10px;
+	border-radius: 30px;
+	/* background-color: #354f52; */
+	background-color: #ffd761;
+}
+
+.skills-big-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.title-header {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	background-color: #073b4c;
+	color: #ffffff;
+}
+
+.skills-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.career-goals {
+	display: flex;
+	justify-content: space-around;
+}
+
+.images-about {
+	box-shadow: 5px 5px #888888;
+	width: 80%;
+}
+
+.images-menu {
+	max-width: 50%;
+}
+
+.restaurants-container {
+	display: flex;
+	justify-content: center;
+}
