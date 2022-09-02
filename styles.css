@@ -43,8 +43,8 @@ a:hover {
 	color: #ffc694;
 }
 
-input {
-	display: block;
+.inputs {
+	display: flex;
 }
 
 #rubberDuck {
@@ -88,11 +88,13 @@ input {
 }
 
 .buttons {
-	padding: 15px;
+	/* /* padding: 15px; */
 	margin: 10px;
+	width: 10vh;
+	height: 10vh;
 	border-radius: 30px;
-	/* background-color: #354f52; */
-	background-color: #ffd761;
+	background-color: #354f52;
+	/* background-color: white; */
 }
 
 .skills-big-container {

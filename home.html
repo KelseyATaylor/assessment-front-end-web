@@ -33,18 +33,28 @@
 			<h2>Contact Us</h2>
 			<form id="contact">
 				Your name:
-				<input type="text" />
+				<input type="text" id="input1" />
 
 				Message:
-				<input type="textarea" />
-				<br />
-				How did you hear about us?
-				<br />
-				<label for="google">Google</label><input type="checkbox" id="google" value="google" />
+				<input type="textarea" id="input2" />
+
+				<section>
+					<p>How did you hear about us?</p>
+					<section class="inputs">
+						<input type="checkbox" id="google" value="google" /><label for="google">Google</label>
+					</section>
+					<section class="inputs">
+						<input type="checkbox" id="friend" value="friend" /><label for="friend">A Friend</label>
+					</section>
+					<section class="inputs">
+						<input type="checkbox" id="other" value="other" /><label for="other">Other</label>
+					</section>
+				</section>
+				<!-- <label for="google">Google</label><input type="checkbox" id="google" value="google" />
 
 				<label for="friend">A Friend</label><input type="checkbox" id="friend" value="friend" />
 
-				<label for="other">Other</label><input type="checkbox" id="other" value="other" />
+				<label for="other">Other</label><input type="checkbox" id="other" value="other" /> -->
 				<input type="submit" />
 			</form>
 		</content>
